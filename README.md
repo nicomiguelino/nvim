@@ -32,3 +32,18 @@ git clone https://github.com/nicomiguelino/nvim ~/.config/nvim
 ```shell
 nvim
 ```
+
+## Usage
+
+```bash
+cd /path/to/project
+nvim .
+```
+
+### Disabling GitHub Copilot
+
+You need to define the `NVIM_DISABLE_COPILOT` environment variable for GitHub Copilot to be disabled.
+
+```
+NVIM_DISABLE_COPILOT=1 nvim .
+```
