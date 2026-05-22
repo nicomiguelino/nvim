@@ -28,7 +28,7 @@ return {
     filetypes = {
       -- see `:h vim.filetype.add` for usage
       extension = {
-        foo = "fooscript",
+        ejs = "html",
       },
       filename = {
         [".foorc"] = "fooscript",
