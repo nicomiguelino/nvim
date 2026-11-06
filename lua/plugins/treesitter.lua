@@ -34,6 +34,10 @@ return {
     opts.ensure_installed = vim.list_extend(opts.ensure_installed or {}, {
       "lua",
       "vim",
+      "markdown",
+      "markdown_inline",
+      "typescript",
+      "tsx",
     })
     return opts
   end,
